@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+  
+}
+
+.game-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+    
+}
+    
+
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vmin;
+   
+    
+  
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    background-color: antiquewhite;
+    color: brown;
+
+}
+
+#resetbtn {
+    width: 10rem ;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.8) ;
+    color: black;
+    background-color: red;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#msz {
+    height: 30px;
+    width: 200px;
+    margin-left: 90vmin;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: crimson;
+}
+.hide{
+    display: none;
+}
+
+#newgame {
+    width: 10rem ;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.8) ;
+    color: black;
+    background-color: greenyellow;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+footer {
+    color: azure;
+    font-size: 2rem;
+    margin-top: 30px;
+}
